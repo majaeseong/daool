@@ -1,0 +1,35 @@
+.navigation {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navi_logo {
+  width: 30%;
+  margin: 30px 0px 15px 30px;
+}
+
+ul li {
+  float: left;
+  margin-right: 30px;
+  overflow: hidden;
+  height: 98px;
+  position: relative;
+}
+.navi_btn01 {
+  width: 88px;
+}
+.navi_btn02,
+.navi_btn03 {
+  width: 60px;
+}
+.navi_btn04 {
+  width: 62px;
+}
+ul li a img {
+  position: absolute;
+}
+ul li a img:hover {
+  top: -98px;
+}
