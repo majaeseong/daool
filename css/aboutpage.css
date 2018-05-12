@@ -1,0 +1,135 @@
+.aboutpage {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 5%;
+}
+#includedContent {
+  width: 100%;
+}
+.aboutpage_main {
+  width: 100%;
+  display: flex;
+}
+
+.aboutpage_left {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  height: 760px;
+}
+.aboutpage_left_menus {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 10px 0px 10px;
+}
+.aboutpage_left_menu {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #a6a6a6;
+}
+.aboutpage_left_menu a {
+  text-decoration: none;
+  color: #a6a6a6;
+  font-size: 1.5vw;
+}
+.aboutpage_left_menu a:hover {
+  color: white;
+}
+.aboutpage_left_menu_sel a {
+  color: white;
+}
+.aboutpage_left_footer {
+  text-align: center;
+}
+.aboutpage_left_footer img {
+  width: 90%;
+}
+
+.aboutpage_cen {
+  width: 18%;
+  height: 100%;
+}
+.aboutpage_cen_menus {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 0px 20px #a6a6a6;
+}
+.aboutpage_cen_menu {
+  position: relative;
+  height: 190px;
+  border-bottom: 1px solid #a6a6a6;
+  border-right: 1px solid #a6a6a6;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+}
+.aboutpage_cen_menu img {
+  position: absolute;
+  width: 100%;
+  height: 380px;
+}
+.aboutpage_cen_menu img:hover,
+.menu_sel {
+  top: -190px;
+}
+
+.aboutpage_right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  overflow-y: scroll;
+  height: 740px;
+}
+.aboutpage_pwd {
+  font-size: 1.3vw;
+  margin-bottom: 5vw;
+}
+.aboutpage_title {
+  font-size: 3vw;
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.8vw;
+  margin-bottom: 0.8vw;
+}
+.aboutpage_content {
+  font-size: 1.3vw;
+  line-height: 130%;
+  margin-bottom: 5vw;
+}
+
+.aboutpage_content2 {
+  display: flex;
+  flex-direction: column;
+}
+.aboutpage_content2_title {
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-bottom: 1.3vw;
+}
+.aboutpage_content2_content {
+  font-size: 1.3vw;
+  line-height: 130%;
+  margin-bottom: 4vw;
+}
+.aboutpage_content2_img img {
+  width: 100%;
+  margin-bottom: 3vw;
+}
+.aboutpage_content2_img_title {
+  width: 100%;
+  display: flex;
+}
+.aboutpage_content2_img_title01,
+.aboutpage_content2_img_title02 {
+  width: 50%;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
